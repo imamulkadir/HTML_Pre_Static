@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background: #4B4B4B;
+    padding: 0;
+    color: #fff;
+}
+
+
+
+.leftColumn{ 
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+.rightColumn{ 
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.hText{
+    margin-top: 10px;
+}
+
+.image-wrapper img {
+    width: 100px;
+    height: auto;
+  }
+
+  .file {
+    visibility: hidden;
+    position: absolute;
+  }
+
+.processBtn{
+    margin-top: 10px;
+    background: #0B1F3A;
+    border: none;
+    color: #fff;
+}
+
+.processBtn:hover{
+    background: #fff;
+    color: #000;
+    box-shadow: #c40707;
+}

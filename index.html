@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>HTML PreProcessor</title>
+
+    <!-- Bootstrap CSS -->
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./static/main.css">
+
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center hText"><span class="image-wrapper">
+            <img src="./static/img/html2.png" alt="your-image-alt-text">
+          </span><sup>Pre</sup>PROCESSOR</h1>
+          
+          
+        <div class="row">
+            <div class="col-6 offset-3 text-center">
+                <div class="mb-3">
+                    <input class="form-control" type="file" id="browseBtn" value="Select an HTML file">
+                    
+                    <input class="btn processBtn" type="button" id="processBtn" value="Process">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-4 offset-2 border-right leftColumn">
+                <h3 class="text-center">PPS/Final File</h3>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Image Size
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>
+                                &lt;img src="image_001.jpg" style="width:145px;height:24px;"&gt;
+                            </code>
+                            <hr style="width: 50%; margin: 0 auto 0 auto;">
+                            <code>
+                                &lt;img src="image_001.jpg" style="width:200px;height:33px;"&gt;
+                            </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Consent... Destination Link
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>
+                                &lt;b&gt;CONSENT TO U.K. BAIL-IN POWER&lt;/b&gt;&lt;/font&gt;
+                            </code>
+                            <hr style="width: 50%; margin: 0 auto 0 auto;">
+                            <code>
+                                &lt;b&gt;CONSENT TO U.K. BAIL-IN POWER&lt;/b&gt;&lt;/font&gt;&lt;a name="CONSENTTOU_K_BAILINPOWER_BBP_C2UKBP"&gt;&lt;/a&gt;
+                            </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Additional... Destination Link
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>
+                                &lt;b&gt;ADDITIONAL INFORMATION REGARDING OUR ESTIMATED VALUE OF THE NOTES&lt;/b&gt;&lt;/font&gt;
+                            </code>
+                            <hr style="width: 50%; margin: 0 auto 0 auto;">
+                            <code>
+                                &lt;b&gt;ADDITIONAL INFORMATION REGARDING OUR ESTIMATED VALUE OF THE NOTES&lt;/b&gt;&lt;/font&gt;&lt;a name="ADDITIONALINFORMATIONREGARDINGOU_BBP_AIROEVN"&gt;&lt;/a&gt;
+                            </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            PS-3 to rest
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>
+                                &lt;div style="text-align:center; margin-bottom:2px;border-width:1px 1px 1px 1px; border-style:none none none none;"&gt;&lt;font style="font-size:10pt;font-family:'Times New Roman',Times,serif;"&gt;PS
+                            </code>
+                            <hr style="width: 50%; margin: 0 auto 0 auto;">
+                            <code>
+                                &lt;div style="text-align:center; margin-top:12px; margin-bottom:2px;border-width:1px 1px 1px 1px; border-style:none none none none;"&gt;&lt;font style="font-size:10pt;font-family:'Times New Roman',Times,serif;"&gt;PS
+                            </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            PS-4
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>
+                                PS-&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;i&gt;4&lt;/i&gt;&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;
+                            </code>
+                            <hr style="width: 50%; margin: 0 auto 0 auto;">
+                            <code>
+                                PS-4
+                            </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                Table Width
+                            </button>
+                        </h2>
+                        <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>
+                                width="19%"
+                                </code>
+                                <hr style="width: 50%; margin: 0 auto 0 auto;">
+                                <code>
+                                    width="18%"
+                                </code>
+                                <hr style="width: 100%; margin: 0;">
+                                <code>
+                                    width="69%"
+                                </code>
+                                <hr style="width: 50%; margin: 0 auto 0 auto;">
+                                <code>
+                                    width="82%"
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                                Selected... Destination Link
+                            </button>
+                        </h2>
+                        <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>
+                                &lt;b&gt;SELECTED RISK CONSIDERATIONS&lt;/b&gt;&lt;/font&gt;
+                            </code>
+                            <hr style="width: 50%; margin: 0 auto 0 auto;">
+                            <code>
+                                &lt;b&gt;SELECTED RISK CONSIDERATIONS&lt;/b&gt;&lt;/font&gt;&lt;a name="SELECTED RISK CONSIDERATIONS"&gt;&lt;/a&gt;
+                            </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse89" aria-expanded="false" aria-controls="flush-collapse89">
+                                Space after Specified
+                            </button>
+                        </h2>
+                        <div id="flush-collapse89" class="accordion-collapse collapse" aria-labelledby="flush-heading89" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>
+                                &lt;b&gt;Any Payment on the Notes Will Be Determined Based on the Closing Values of the Reference Assets on the Dates Specified&lt;/b&gt;&#8212;
+                            </code>
+                            <hr style="width: 50%; margin: 0 auto 0 auto;">
+                            <code>
+                                &lt;b&gt;Any Payment on the Notes Will Be Determined Based on the Closing Values of the Reference Assets on the Dates Specified&lt;/b&gt; &#8212;
+                            </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                            PS-5
+                            </button>
+                        </h2>
+                        <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><code>
+                            &lt;div style="text-align:center; border-width:1px 1px 1px 1px; border-style:none none none none;"&gt;&lt;font style="font-size:10pt;font-family:'Times New Roman',Times,serif;"&gt;PS
+                            </code>
+                            <hr style="width: 50%; margin: 0 auto 0 auto;">
+                            <code>
+                                &lt;div style="text-align:center; margin-top:12px; margin-bottom:2px;border-width:1px 1px 1px 1px; border-style:none none none none;"&gt;&lt;font style="font-size:10pt;font-family:'Times New Roman',Times,serif;"&gt;PS
+                            </code>
+                            </div>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-4 border-right rightColumn">
+                <h3 class="text-center">FWP File</h3>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+                                Top Code
+                            </button>
+                        </h2>
+                        <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <code>
+                                    &lt;body&gt;
+                                </code>
+                                <hr style="width: 50%; margin: 0 auto 0 auto;">
+                                <code>
+                                    &lt;body&gt;&lt;p align="right" style="margin:0in 0in .0001pt;text-align:right;"&gt;&lt;font size="2" face="Arial" style="font-size:10.0pt;"&gt;Filed Pursuant to Rule 433&lt;/font&gt;&lt;/p&gt;
+                                    &lt;p align="right" style="margin:0in 0in .0001pt;text-align:right;"&gt;&lt;font size="2" face="Arial" style="font-size:10.0pt;"&gt;Registration No. 333-265158&lt;/font&gt;&lt;/p&gt;
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading11">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                                Image Width
+                            </button>
+                        </h2>
+                        <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <code>
+                                    &lt;img src="image_001.jpg" style="width:145px;height:24px;"&gt;
+                                </code>
+                                <hr style="width: 50%; margin: 0 auto 0 auto;">
+                                <code>
+                                    &lt;img src="image_001.jpg" style="width:200px;height:30px;"&gt;
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading12">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+                                Remove Extra Symbol
+                            </button>
+                        </h2>
+                        <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <code>
+                                    border-right:1px solid #ffffff;  ; align:center; &gt; "&gt;
+                                </code>
+                                <hr style="width: 50%; margin: 0 auto 0 auto;">
+                                <code>
+                                    border-right:1px solid #ffffff; align:center;"&gt;
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading13">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                                Summary Characteristics Top Margin
+                            </button>
+                        </h2>
+                        <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <code>
+                                    &lt;div style="text-align:center; border-width:1px 1px 1px 1px; border-style:none none none none;"&gt;&lt;font style="font-size:10pt;font-family:'Calibri'"&gt;&lt;b&gt;&lt;u&gt;Summary Characteristics of the Notes
+                                </code>
+                                <hr style="width: 50%; margin: 0 auto 0 auto;">
+                                <code>
+                                    &lt;div style="text-align:center; margin-top: 8px; border-width:1px 1px 1px 1px; border-style:none none none none;"&gt;&lt;font style="font-size:10pt;font-family:'Calibri'"&gt;&lt;b&gt;&lt;u&gt;Summary Characteristics of the Notes
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading14">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+                                Summary Risk Top Margin
+                            </button>
+                        </h2>
+                        <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <code>
+                                    &lt;div style="text-align:center; border-width:1px 1px 1px 1px; border-style:none none none none;"&gt;&lt;font style="font-size:10pt;font-family:'Calibri'"&gt;&lt;b&gt;&lt;u&gt;Summary Risk Considerations
+                                </code>
+                                <hr style="width: 50%; margin: 0 auto 0 auto;">
+                                <code>
+                                    &lt;div style="text-align:center; margin-top: 8px; border-width:1px 1px 1px 1px; border-style:none none none none;"&gt;&lt;font style="font-size:10pt;font-family:'Calibri'"&gt;&lt;b&gt;&lt;u&gt;Summary Risk Considerations
+                                </code>
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="container py-4 py-lg-5">
+                <ul class="list-inline">
+                    <li class="list-inline-item me-4"><a href="https://facebook.com/imamulkadir" target="_blank"><span class="fab fa-facebook"></span></a></li>
+                    <li class="list-inline-item me-4"><a href="https://github.com/imamulkadir" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+                    <li class="list-inline-item"><a href="https://linkedin.com/in/imamulkadir" target="_blank"><span class="fab fa-github"></span></a></li>
+                </ul>
+                <p class="mb-0 mt-0 text-muted">Special thanks to <em><a class="mb-0 mt-0 text-muted" href="https://github.com/afifaniks" target="_blank">Afif</a></em> <br>Copyright © 2023 Brand</p>
+            </div>
+        </footer>
+    </div>    
+    <!-- Optional JavaScript -->
+    <script>
+        $(document).ready(function() {
+            $('input[type="file"]').on("change", function() {
+                let filenames = [];
+                let files = this.files;
+                if (files.length > 1) {
+                    filenames.push("Total Files (" + files.length + ")");
+                } else {
+                for (let i in files) {
+                    if (files.hasOwnProperty(i)) {
+                        filenames.push(files[i].name);
+                    }
+                }
+                }
+                $(this)
+                .next(".custom-file-label")
+                .html(filenames.join(","));
+            });
+        });
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
